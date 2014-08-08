@@ -1,0 +1,30 @@
+{
+  "name": "chalk-twig-filter",
+  "version": "0.0.0",
+  "description": "A twig plugin to provide filters for coloring terminal output with chalk.'",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tizzo/chalk-twig-filter.git"
+  },
+  "keywords": [
+    "chalk",
+    "twig"
+  ],
+  "author": "Howard Tyson",
+  "license": "GPL2+",
+  "bugs": {
+    "url": "https://github.com/tizzo/chalk-twig-filter/issues"
+  },
+  "homepage": "https://github.com/tizzo/chalk-twig-filter",
+  "dependencies": {
+    "chalk": "^0.5.1"
+  },
+  "devDependencies": {
+    "mocha": "^1.21.4",
+    "twig": "^0.7.2"
+  }
+}
