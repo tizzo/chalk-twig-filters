@@ -5,28 +5,24 @@ referred to as themes) as [twig.js](https://www.npmjs.org/package/twig) [filters
 
 ## Usage
 
-Basic usage:
+### Basic usage:
 
 ````javascript
-
-    var Twig = require('twig');
-    require('chalk-twig-filters')(Twig);
-
+var Twig = require('twig');
+require('chalk-twig-filters')(Twig);
 ````
 
 That's it! Now you can use twig to render colored text for the console like so:
 
 ````javascript
-
-    var Twig = require('twig');
-    require('./index')(Twig);
-    var someObject = {
-      message: 'something wicked this way comes',
-      date: new Date().getTime(),
-    };
-    var template = Twig.twig({data: '{{ date | date("m/d/Y h:m:s") | blue | underline}}: {{ message | cyan }}'});
-    console.log(template.render(someObject));
-
+var Twig = require('twig');
+require('./index')(Twig);
+var someObject = {
+  message: 'something wicked this way comes',
+  date: new Date().getTime(),
+};
+var template = Twig.twig({data: '{{ date | date("m/d/Y h:m:s") | blue | underline}}: {{ message | cyan }}'});
+console.log(template.render(someObject));
 ````
 
 Advanced usage:
@@ -34,10 +30,8 @@ Advanced usage:
 If you're doing anything clever like custom themes in chalk you can hand in the chalk instance to use.  All styles should be automatically detected and filterified dynamically. All you have to do is hand in chalk as a second argument.
 
 ````javascript
-
-    var Twig = require('twig');
-    var chalk = require('chalk');
-    // Configure chalk, add some theme combo, etc...
-    require('chalk-twig-filters')(Twig, chalk);
-
+var Twig = require('twig');
+var chalk = require('chalk');
+// Configure chalk, add some theme combo, etc...
+require('chalk-twig-filters')(Twig, chalk);
 ````
