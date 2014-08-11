@@ -1,5 +1,5 @@
 {
-  "name": "chalk-twig-filter",
+  "name": "chalk-twig-filters",
   "version": "0.0.0",
   "description": "A twig plugin to provide filters for coloring terminal output with chalk.'",
   "main": "index.js",
@@ -25,6 +25,7 @@
   },
   "devDependencies": {
     "mocha": "^1.21.4",
+    "should": "^4.0.4",
     "twig": "^0.7.2"
   }
 }
