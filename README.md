@@ -1,4 +1,5 @@
 # Chalk Twig Filters
+[![Build Status](https://travis-ci.org/tizzo/chalk-twig-filters.svg?branch=master)](https://travis-ci.org/tizzo/chalk-twig-filters)
 
 Adds all configured [chalk](https://www.npmjs.org/package/chalk) styles (sometimes
 referred to as themes) as [twig.js](https://www.npmjs.org/package/twig) [filters](http://twig.sensiolabs.org/doc/tags/filter.html).
