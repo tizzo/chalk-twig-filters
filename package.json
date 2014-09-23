@@ -4,7 +4,8 @@
   "description": "A twig plugin to provide filters for coloring terminal output with chalk.'",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "coverage": "./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha"
   },
   "repository": {
     "type": "git",
@@ -24,6 +25,8 @@
     "chalk": "^0.5.1"
   },
   "devDependencies": {
+    "coveralls": "^2.11.2",
+    "istanbul": "^0.3.2",
     "mocha": "^1.21.4",
     "should": "^4.0.4",
     "twig": "^0.7.2"
