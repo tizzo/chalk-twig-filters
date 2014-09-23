@@ -1,6 +1,6 @@
 {
   "name": "chalk-twig-filters",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A twig plugin to provide filters for coloring terminal output with chalk.'",
   "main": "index.js",
   "scripts": {
